@@ -1,0 +1,43 @@
+/* Make login page look more modern */
+body.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.3s ease;
+}
+
+#login {
+    width: 100%;
+    max-width: 380px;
+    padding: 20px;
+}
+
+.login form {
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+    padding: 30px !important;
+    border: none !important;
+}
+
+.login form input[type="text"], 
+.login form input[type="password"] {
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.wp-core-ui .button-primary {
+    border-radius: 6px !important;
+    font-size: 16px !important;
+    padding: 5px 20px !important;
+    transition: all 0.2s ease;
+}
+
+.wp-core-ui .button-primary:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
